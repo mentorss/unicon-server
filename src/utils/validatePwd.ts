@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from 'bcrypt-nodejs';
 const saltRounds = 12;
 
 export class validatePwd {
