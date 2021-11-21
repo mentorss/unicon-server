@@ -22,7 +22,7 @@ export const jwtMiddleware = (
     const verifiedToken: Jwt = jwt.verify(token, process.env.JWT_SECRET) as Jwt;
     req.verifiedToken = verifiedToken;
     next();
-  } catch {
+  } catch (error) {
     return res.json(response(ResponseMessage.JWT_VERIFICATION_FAIL));
   }
 };

@@ -1,4 +1,4 @@
-import { Connection } from "mysql2/promise";
+import { Connection } from 'mysql2/promise';
 
 const checkUser = async (pool: Connection, email: string): Promise<any> => {
   const checkUserQuery = `
@@ -16,7 +16,7 @@ const checkUser = async (pool: Connection, email: string): Promise<any> => {
 
 const createUser = async (
   pool: Connection,
-  createUserParam: string[]
+  createUserParam: string[],
 ): Promise<any> => {
   const createUserQuery = `
     INSERT INTO User(email, password, salt) VALUES(?, ?, ?)

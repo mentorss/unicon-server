@@ -1,10 +1,10 @@
-import { Response } from "express";
-import { ResponseMessage } from "../common/baseResponseStatus";
-import { response } from "../common/response";
-import Logger from "../config/logger";
-import { Request } from "../interface/request.interface";
-import { regex } from "../utils/regex";
-import AuthService from "../auth/auth.service";
+import { Response } from 'express';
+import { ResponseMessage } from '../common/baseResponseStatus';
+import { response } from '../common/response';
+import Logger from '../config/logger';
+import { Request } from '../interface/request.interface';
+import { regex } from '../utils/regex';
+import AuthService from '../auth/auth.service';
 
 /**
  * API Name : Login

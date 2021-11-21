@@ -1,10 +1,10 @@
-import { ResponseMessage } from "../common/baseResponseStatus";
-import { response } from "../common/response";
-import pool from "../config/db";
-import { validatePwd } from "../utils/validatePwd";
-import authDao from "./auth.dao";
-import jwt from "jsonwebtoken";
-import Logger from "../config/logger";
+import { ResponseMessage } from '../common/baseResponseStatus';
+import { response } from '../common/response';
+import pool from '../config/db';
+import { validatePwd } from '../utils/validatePwd';
+import authDao from './auth.dao';
+import jwt from 'jsonwebtoken';
+import Logger from '../config/logger';
 
 const loginUser = async (email: string, password: string): Promise<any> => {
   try {
@@ -18,15 +18,15 @@ const loginUser = async (email: string, password: string): Promise<any> => {
       return response(ResponseMessage.USER_AUTH_FAILED);
 
     //generate token
-    const token = await jwt.sign(
+    const token = jwt.sign(
       {
         userIdx: userRows.userIdx,
       },
       process.env.JWT_SECRET,
       {
-        expiresIn: "365d",
-        subject: "userInfo",
-      }
+        expiresIn: '365d',
+        subject: 'userInfo',
+      },
     );
 
     return response(ResponseMessage.SUCCESS, {

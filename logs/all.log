@@ -62,3 +62,43 @@
 2021-11-20 03:49:43:4943 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
 2021-11-20 03:49:46:4946 [35mhttp[39m: [35mPOST /auth/login 200 250 - 373.365 ms[39m
 [35m[39m
+2021-11-22 00:13:22:1322 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:15:32:1532 [35mhttp[39m: [35mPOST /auth/login 200 250 - 369.657 ms[39m
+[35m[39m
+2021-11-22 00:16:11:1611 [35mhttp[39m: [35mGET /home 200 61 - 0.738 ms[39m
+[35m[39m
+2021-11-22 00:16:42:1642 [35mhttp[39m: [35mGET /home 200 66 - 0.887 ms[39m
+[35m[39m
+2021-11-22 00:16:52:1652 [35mhttp[39m: [35mGET /home 200 66 - 0.322 ms[39m
+[35m[39m
+2021-11-22 00:19:22:1922 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:19:24:1924 [35mhttp[39m: [35mGET /home 200 66 - 6.621 ms[39m
+[35m[39m
+2021-11-22 00:20:03:203 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:20:18:2018 [35mhttp[39m: [35mGET /home 200 66 - 8.357 ms[39m
+[35m[39m
+2021-11-22 00:21:02:212 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:21:03:213 [35mhttp[39m: [35mGET /home 200 66 - 11.215 ms[39m
+[35m[39m
+2021-11-22 00:22:46:2246 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:23:03:233 [35mhttp[39m: [35mPOST /auth/login 200 250 - 348.004 ms[39m
+[35m[39m
+2021-11-22 00:23:18:2318 [35mhttp[39m: [35mGET /home 200 209 - 15.428 ms[39m
+[35m[39m
+2021-11-22 00:23:46:2346 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:23:54:2354 [35mhttp[39m: [35mGET /home 200 209 - 69.427 ms[39m
+[35m[39m
+2021-11-22 00:32:27:3227 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:32:53:3253 [35mhttp[39m: [35mGET /home 200 253 - 64.675 ms[39m
+[35m[39m
+2021-11-22 00:33:43:3343 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:34:25:3425 [35mhttp[39m: [35mGET /home 200 348 - 65.956 ms[39m
+[35m[39m
+2021-11-22 00:36:37:3637 [35mhttp[39m: [35mGET /home 200 348 - 13.133 ms[39m
+[35m[39m
+2021-11-22 00:36:50:3650 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:36:58:3658 [35mhttp[39m: [35mGET /home 200 225 - 59.108 ms[39m
+[35m[39m
+2021-11-22 00:53:06:536 [32minfo[39m: [32mdevelopment server listening on port 4000[39m
+2021-11-22 00:53:12:5312 [35mhttp[39m: [35mGET /home 200 585 - 65.223 ms[39m
+[35m[39m
