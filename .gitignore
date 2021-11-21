@@ -1,6 +1,7 @@
 node_modules
 /dist
 .cache
+logs
 
 .env.development
 .env.production
